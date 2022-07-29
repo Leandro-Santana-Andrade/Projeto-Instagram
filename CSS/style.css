@@ -122,11 +122,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('/img/apple-button.png');
+    background-image: url('./img/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('/img/googleplay-button.png');
+    background-image: url('./img/googleplay-button.png');
 }
 
 
@@ -134,8 +134,8 @@ body {
 
 @media (max-width: 1024px) {
 
-    .body {
-        background-color: #fff;
+    body {
+        background-color: #ffffff;
     }
 
     .instagram-contanier {
@@ -146,7 +146,15 @@ body {
         display: none;
     }
 
+    .grupo {
+        border: 1px solid transparent;        
+    }
+
     .instagram-acesso {
         width: 100%;
-    }  
+    }
+
+    .foto-perfil img {
+        height: 180px;
+    }
 }
